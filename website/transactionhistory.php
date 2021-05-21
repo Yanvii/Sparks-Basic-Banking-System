@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="table.css">
     <link rel="stylesheet" type="text/css" href="navbar.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noticia+Text:wght@700&display=swap" rel="stylesheet">
     <style>
       body{
         background-color: #bbbbbb;
@@ -20,7 +21,7 @@
   ?>
 
 	<div class="container">
-        <h2 class="text-center pt-4">Transaction History</h2>
+        <h2 class="text-center pt-4" style="font-family:Noticia Text;">Transaction History</h2>
 
        <br>
        <div class="table-responsive-sm">

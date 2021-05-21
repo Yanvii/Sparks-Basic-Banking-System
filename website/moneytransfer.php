@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="navbar.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Cardo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noticia+Text:wght@700&display=swap" rel="stylesheet">
     <style type="text/css">
       button{
         transition: 1.5s;
@@ -34,7 +35,7 @@
   include 'navbar.php';
 ?>
 <div class="container">
-        <h2 class="text-center pt-4">Transfer Money</h2>
+        <h2 class="text-center pt-4" style="font-family:Noticia Text;">Transfer Money</h2>
         <br>
             <div class="row">
                 <div class="col">

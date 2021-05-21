@@ -13,6 +13,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Cardo&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noticia+Text:wght@700&display=swap" rel="stylesheet">
   <!-- jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
@@ -39,7 +40,7 @@
    ?>
 <br><br>
 <div class="container">
-  <h2 style="text-align:center;">View Customers</h2>
+  <h2 style="text-align:center; font-family:Noticia Text; color: black;">Users</h2>
   <?php
   $conn = mysqli_connect('localhost','root','','website');
   if(isset($_GET['del'])){
@@ -58,12 +59,12 @@
   <table class="table table-bordered">
     <thead>
       <tr>
-        <th>Id</th>
-        <th>Name</th>
-        <th>Email</th>
-        <th>Current Balance</th>
-        <th>Delete</th>
-        <th>View</th>
+        <th style="font-weight:bold; color:black;">Id</th>
+        <th style="font-weight:bold; color:black;">Name</th>
+        <th style="font-weight:bold; color:black;">Email</th>
+        <th style="font-weight:bold; color:black;">Current Balance</th>
+        <th style="font-weight:bold; color:black;">Delete</th>
+        <th style="font-weight:bold; color:black;">View</th>
       </tr>
     </thead>
     <tbody >
